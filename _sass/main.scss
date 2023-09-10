@@ -54,5 +54,15 @@ main {
   padding: 50px 5px;
 }
 
+#site-desc {
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+  color: white;
+  text-decoration: none;
+  size: 18px;
+  padding-bottom: 32px;
+}
+
 #content br {display: none;}
 #content p br {display: inline;}
