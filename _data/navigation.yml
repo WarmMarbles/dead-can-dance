@@ -1,0 +1,18 @@
+- name: Home
+  link: /
+- name: Dear Dahlia,
+  link: /dear-dahlia.html
+- name: Cinema Staff
+  link: /cinema-staff.html
+- name: World Within
+  link: /world-within.html
+- name: Codex Collective
+  link: /codex-collective.html
+- name: Living Limbo
+  link: /living-limbo.html
+- name: Sketchy Book
+  link: /sketchy-book.html
+- name: Paths to Glory
+  link: /paths-to-glory.html
+- name: Eternal Stray
+  link: /eternal-stray.html
