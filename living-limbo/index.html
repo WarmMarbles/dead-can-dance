@@ -1,11 +1,8 @@
 ---
 layout: default
-title: Living Limbo
 id: living-limbo
 ---
-{% for post in site.posts %}
-    {% if post.where == "living-limbo" %}
-        {{ post.content }}
-        <p style="text-align: center; padding: 24px 0px;">-✩-</p>
-    {% endif %}
+{% for post in site.categories.living-limbo %}
+    {{ post.content }}
+    <p style="text-align: center; padding: 24px 0px;">-✩-</p>
 {% endfor %}
