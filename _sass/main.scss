@@ -61,7 +61,25 @@ main {
   color: white;
   text-decoration: none;
   size: 18px;
-  padding-bottom: 32px;
+  margin-bottom: 32px;
+}
+
+.index-title {
+  color: #D70000;
+  font-size: 24px;
+  text-decoration: none;
+  margin-bottom: 0px;
+}
+
+.index-date {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.index-excerpt {
+  margin-bottom: 32px;
 }
 
 #content br {display: none;}

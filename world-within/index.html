@@ -1,5 +1,9 @@
 ---
-layout: under-construction
-tab-title: World Within
+layout: default
 id: world-within
 ---
+{% for post in site.categories.world-within %}
+    <a class="index-title" href="{{ post.url }}">{{ post.post-title }}</a>
+    <p class="index-date">{{ post.date | date: "%D" }}</p>
+    <div class="index-excerpt">{{ post.excerpt }}</div>
+{% endfor %}
