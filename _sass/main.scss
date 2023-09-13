@@ -1,7 +1,10 @@
+$accent-color: #9768fc;
+
 body {
-  font-family: 'Special Elite', cursive;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
   color: white;
-  background-color: #140023;
+  background-color: #000000;
 }
 
 /* TOP NAVIGATION BAR */
@@ -23,23 +26,23 @@ nav > div {
 
 .left-nav {
   float: left;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 #logo {
   rotate: 4.5deg;
   max-width: 200px;
   height: auto;
-  padding: 0px 10px;
+  padding: 0px 16px;
 }
 
 .right-nav {
   float: right;
-  margin-right: 5px;
+  margin-right: 16px;
 }
 
 nav > div > a {
-  color: #D70000;
+  color: $accent-color;
   padding: 0px 10px;
   font-size: 18px;
   text-decoration: none;
@@ -57,7 +60,7 @@ main {
 #site-desc {
   display: flex;
   justify-content: center;
-  font-style: italic;
+  font-weight: bold;
   color: white;
   text-decoration: none;
   size: 18px;
@@ -65,7 +68,7 @@ main {
 }
 
 .index-title {
-  color: #D70000;
+  color: $accent-color;
   font-size: 24px;
   text-decoration: none;
   margin-bottom: 0px;
