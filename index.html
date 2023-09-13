@@ -5,7 +5,7 @@ id: home
 ---
 {% for post in site.posts %}
     <h1 class="index-title">{{ post.post-title}}</h1>
-    <p class="index-date">{{ post.date | date: "%D" }}</p>
+    <p class="index-date">{{ post.date | date: "%v [%R]" }}</p>
     {{ post.content }}
     <p style="text-align: center; padding: 24px 0px;">-✩-</p>
 {% endfor %}
