@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
+    <title>{{ page.tab-title }}</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,6 +12,7 @@
   <body>
     {% include navigation.html %}
     <main>
+        <p style="margin-bottom: 16px;">{% include description.html %}</p>
         <h1>Oh no! This site is still under construction :(</h1>
         <p style="display: inline;">Come back later!!!</p>
         <img src="/assets/images/THE-KING.gif" alt="The king" style="width: 20px;">

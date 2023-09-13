@@ -1,10 +1,8 @@
 ---
 layout: default
-title: Dear Dahlia,
+id: dear-dahlia
 ---
-{% for post in site.posts %}
-    {% if post.where == "dear-dahlia" %}
-        {{ post.content }}
-        <p style="text-align: center; padding: 24px 0px;">-✩-</p>
-    {% endif %}
+{% for post in site.categories.dear-dahlia %}
+    {{ post.content }}
+    <p style="text-align: center; padding: 24px 0px;">-✩-</p>
 {% endfor %}

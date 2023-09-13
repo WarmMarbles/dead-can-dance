@@ -1,0 +1,32 @@
+defaults:
+  
+  - # dear-dahlia timeline title
+    scope:
+      path: "dear-dahlia"
+      type: "pages"
+    values:
+      title: "Dear Dahlia,"
+  - # dear-dahlia post layout
+    scope:
+      path: "dear-dahlia"
+      type: "posts"
+    values:
+      title: "post-content"
+  - # world-within index title
+    scope:
+      path: "world-within"
+      type: "pages"
+    values:
+      title: "World Within"
+  - # world-within post layout
+    scope:
+      path: "world-within"
+      type: "posts"
+    values:
+      layout: "post-content"
+  - # living limbo timeline title
+    scope:
+      path: "living-limbo"
+      type: "pages"
+    values:
+      title: "Living Limbo"
