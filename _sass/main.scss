@@ -1,5 +1,10 @@
 $accent-color: #9768fc;
 
+html {
+  /* THE TRICK */
+  margin-left: calc(100vw - 100%);
+}
+
 body {
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
