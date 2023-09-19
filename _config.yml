@@ -1,5 +1,8 @@
+# fixes new line issue
+kramdown:
+  hard_wrap: true
+
 defaults:
-  
   - # dear-dahlia timeline title
     scope:
       path: "dear-dahlia"
