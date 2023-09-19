@@ -14,7 +14,7 @@ defaults:
       path: "dear-dahlia"
       type: "posts"
     values:
-      title: "post-content"
+      layout: "post-content"
   - # world-within index title
     scope:
       path: "world-within"
@@ -33,3 +33,9 @@ defaults:
       type: "pages"
     values:
       title: "Living Limbo"
+  - # living-limbo post layout
+    scope:
+      path: "living-limbo"
+      type: "posts"
+    values:
+      layout: "post-content"
