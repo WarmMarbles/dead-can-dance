@@ -1,17 +1,17 @@
 <nav>
   <div class="left-nav">
-    <a href="/dear-dahlia">Dear Dahlia,</a>
-    <a href="/cinema-staff">Cinema Staff</a>
-    <a href="/world-within">World Within</a>
-    <a href="/codex-collective">Codex Collective</a>
+    <a href="/dear-dahlia" {% if page.url == "/dear-dahlia/" %}class="current"{% endif %}>Dear Dahlia,</a>
+    <a href="/cinema-staff" {% if page.url == "/cinema-staff/" %}class="current"{% endif %}>Cinema Staff</a>
+    <a href="/world-within" {% if page.url == "/world-within/" %}class="current"{% endif %}>World Within</a>
+    <a href="/codex-collective" {% if page.url == "/codex-collective/" %}class="current"{% endif %}>Codex Collective</a>
   </div>
   <a href="/">
     <img id="logo" src="/assets/images/crush_logo.webp">
   </a>
   <div class="right-nav">
-    <a href="/living-limbo">Living Limbo</a>
-    <a href="/lateral-divinity">Lateral Divinity</a>
-    <a href="/escaping-samsara">Escaping Samsara</a>
-    <a href="/eternal-stray">Eternal Stray</a>
+    <a href="/living-limbo" {% if page.url == "/living-limbo/" %}class="current"{% endif %}>Living Limbo</a>
+    <a href="/lateral-divinity" {% if page.url == "/lateral-divinity/" %}class="current"{% endif %}>Lateral Divinity</a>
+    <a href="/escaping-samsara" {% if page.url == "/escaping-samsara/" %}class="current"{% endif %}>Escaping Samsara</a>
+    <a href="/eternal-stray" {% if page.url == "/eternal-stray/" %}class="current"{% endif %}>Eternal Stray</a>
   </div>
 </nav>

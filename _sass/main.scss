@@ -1,3 +1,5 @@
+$bg-color: #000000;
+$main-color: #FFFFFF;
 $accent-color: #9768fc;
 
 html {
@@ -8,7 +10,7 @@ html {
 body {
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
-  color: white;
+  color: $main-color;
   background-color: #000000;
 }
 
@@ -53,6 +55,15 @@ nav > div > a {
   text-decoration: none;
 }
 
+nav > div > a:hover {
+  color: $main-color;
+}
+
+.current {
+  color: $main-color;
+  text-decoration:underline;
+}
+
 /* GENERAL CONTENT* */
 
 main {
@@ -66,7 +77,7 @@ main {
   display: flex;
   justify-content: center;
   font-weight: bold;
-  color: white;
+  color: $main-color;
   text-decoration: none;
   size: 18px;
   margin-bottom: 32px;
