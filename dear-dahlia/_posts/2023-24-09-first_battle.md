@@ -1,3 +1,8 @@
+
+---
+date: 2023-09-09 18:55
+---
+
 Dear Dahlia,
 
 Every time I feel the urge to write a message, I end up struggling to come up with anything coherent when the time comes to actually manifest whatever scattered thing is floating within my mind. It's as if there is no unity in my upper interior. I feel this weird negative force coming from the inside when I even think of writing you a message. ¿Might this be a sign? 
